@@ -1,0 +1,57 @@
+  199  pip install virtualenv
+  200  sudo pip install virtualenv
+  202  cd pyenvs
+  204  virtualenv devel
+  206  source devel/bin/activate
+  207  pip install requests
+  208  pip install beautifulsoup
+  210  ..
+  212  pip install pyaudio
+  213  sudo apt-get install x86_64-linux-gnu-gcc
+  215  deactivate
+  216  which python
+  217  python --version
+  218  virtualenv pyvoice
+  220  mv pyvoice ./pyenvs
+  221  source pyenvs/pyvoice/bin/activate
+  222  pip install portaudio19-dev
+  223  pip install SpeechRecognition
+  226  mkdir speechtotext
+  227  cd speechtotext
+  228  sudo apt-get install python-pyaudio pyton3-pyaudio
+  229  sudo apt-get install python-pyaudio python3-pyaudio
+  230  pip install wheel
+  232  sudo apt-get install python python-all-dev python-pip build-essential swig git
+  233  pip install pocketsphinx
+  234  sudo pip install pocketsphinx
+  235  pip install monotonic
+  236  sudo pip install monotonic
+  238  find ~/ -name SpeechRecognition
+  239  find / -name SpeechRecognition
+  240  sudo find / -name SpeechRecognition
+  241  sudo pip install SpeechRecognition
+  242  ls /usr/local/lib/python2.7/dist-packages
+  243  ls /usr/local/lib/python2.7/dist-packages/speech_recognition
+  244  sudo apt-get Audacity
+  245  subl pyaudio_test.py
+  247  python pyaudio_test.py ./test_eng.wav
+  250  subl micorphone_test.py
+  252  sudo apt-get update pyaudio
+  253  sudo apt-get upgrade pyaudio
+  255  sudo apt-get install ilbjack-dev
+  256  pip install --upgrade pyaudio
+  257  sudo pip install --upgrade pyaudio
+  258  pip install libkjack-jackd2-dev
+  259  pip install jackd1
+  261  sudo apt-get install libjack0
+  262  sudo apt-get install libjack-dev
+  263  sudo apt-get install portaudio19-dev && pip install --upgrade pyaudio~
+  264  sudo apt-get install portaudio19-dev && pip install --upgrade pyaudio
+  265  sudo apt-get install portaudio19-dev && sudo pip install --upgrade pyaudio
+  266  ls
+  267  python micorphone_test.py
+  268  touch install_history.txt
+  269  history
+  270  q
+  271  man history
+  272  history | less
