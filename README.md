@@ -18,7 +18,8 @@ sudo pip install monotonic
 sudo pip install SpeechRecognition
 
 
-sudo apt-get Audacity
+sudo apt-get install Audacity
+sudo apt-get install vlc #(for ubuntu)
 ```
 
 # Knowledge Sources
